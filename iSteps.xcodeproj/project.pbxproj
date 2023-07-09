@@ -7,18 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A9BB7F62A5A847100C6074A /* SharingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9BB7F52A5A847100C6074A /* SharingView.swift */; };
+		1AABE60A2A55811600F4572D /* ActivityRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AABE6092A55811600F4572D /* ActivityRectangle.swift */; };
+		1AABE60D2A5660D000F4572D /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AABE60C2A5660D000F4572D /* GraphView.swift */; };
+		1AABE6122A56610900F4572D /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AABE6112A56610900F4572D /* Step.swift */; };
+		1AABE6142A56622900F4572D /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AABE6132A56622900F4572D /* ActivityView.swift */; };
+		1AABE6162A56678800F4572D /* DetailActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AABE6152A56678800F4572D /* DetailActivityView.swift */; };
+		1AABE61A2A56DA3F00F4572D /* ActivityRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AABE6192A56DA3F00F4572D /* ActivityRing.swift */; };
+		1AABE61D2A56DBB900F4572D /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AABE61C2A56DBB900F4572D /* Color+Extension.swift */; };
+		1AABE61F2A56F51B00F4572D /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AABE61E2A56F51B00F4572D /* Double+Extension.swift */; };
+		1AC61F6B2A593EEC00466E1E /* Fitness+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC61F6A2A593EEC00466E1E /* Fitness+View.swift */; };
+		1AC61F702A59C3C900466E1E /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC61F6F2A59C3C900466E1E /* ShareViewController.swift */; };
 		1AFFA7FB2A5439A700120F81 /* iStepsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFA7FA2A5439A700120F81 /* iStepsApp.swift */; };
 		1AFFA7FD2A5439A700120F81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFA7FC2A5439A700120F81 /* ContentView.swift */; };
 		1AFFA7FF2A5439A800120F81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AFFA7FE2A5439A800120F81 /* Assets.xcassets */; };
 		1AFFA8022A5439A800120F81 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AFFA8012A5439A800120F81 /* Preview Assets.xcassets */; };
+		1AFFA80B2A5445CA00120F81 /* HealthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFA80A2A5445CA00120F81 /* HealthStore.swift */; };
+		1AFFA80D2A54461C00120F81 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFA80C2A54461C00120F81 /* Date+Extension.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1A9BB8102A5AB5E500C6074A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1A9BB7F52A5A847100C6074A /* SharingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingView.swift; sourceTree = "<group>"; };
+		1A9BB8002A5AB5E200C6074A /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		1AABE6092A55811600F4572D /* ActivityRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRectangle.swift; sourceTree = "<group>"; };
+		1AABE60C2A5660D000F4572D /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		1AABE6112A56610900F4572D /* Step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
+		1AABE6132A56622900F4572D /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		1AABE6152A56678800F4572D /* DetailActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailActivityView.swift; sourceTree = "<group>"; };
+		1AABE6192A56DA3F00F4572D /* ActivityRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRing.swift; sourceTree = "<group>"; };
+		1AABE61C2A56DBB900F4572D /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		1AABE61E2A56F51B00F4572D /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		1AC61F6A2A593EEC00466E1E /* Fitness+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fitness+View.swift"; sourceTree = "<group>"; };
+		1AC61F6F2A59C3C900466E1E /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		1AFFA7F72A5439A700120F81 /* iSteps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSteps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AFFA7FA2A5439A700120F81 /* iStepsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iStepsApp.swift; sourceTree = "<group>"; };
 		1AFFA7FC2A5439A700120F81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1AFFA7FE2A5439A800120F81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AFFA8012A5439A800120F81 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1AFFA8092A54443F00120F81 /* iSteps.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iSteps.entitlements; sourceTree = "<group>"; };
+		1AFFA80A2A5445CA00120F81 /* HealthStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStore.swift; sourceTree = "<group>"; };
+		1AFFA80C2A54461C00120F81 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,10 +73,86 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A9BB7FD2A5AB5E200C6074A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A9BB8002A5AB5E200C6074A /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1AABE60B2A5660BA00F4572D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1AFFA7FC2A5439A700120F81 /* ContentView.swift */,
+				1AC61F6F2A59C3C900466E1E /* ShareViewController.swift */,
+				1AC61F6A2A593EEC00466E1E /* Fitness+View.swift */,
+				1A9BB7F52A5A847100C6074A /* SharingView.swift */,
+				1AC61F672A59229100466E1E /* Activity */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1AABE60E2A5660F100F4572D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1AABE6112A56610900F4572D /* Step.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1AABE6172A56B56C00F4572D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1AFFA7FA2A5439A700120F81 /* iStepsApp.swift */,
+				1AABE6182A56B57B00F4572D /* Resources */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		1AABE6182A56B57B00F4572D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1AFFA7FE2A5439A800120F81 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1AABE61B2A56DB9C00F4572D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1AFFA80C2A54461C00120F81 /* Date+Extension.swift */,
+				1AABE61C2A56DBB900F4572D /* Color+Extension.swift */,
+				1AABE61E2A56F51B00F4572D /* Double+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1AC61F672A59229100466E1E /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				1AABE6132A56622900F4572D /* ActivityView.swift */,
+				1AABE6092A55811600F4572D /* ActivityRectangle.swift */,
+				1AABE6152A56678800F4572D /* DetailActivityView.swift */,
+				1AABE6192A56DA3F00F4572D /* ActivityRing.swift */,
+				1AABE60C2A5660D000F4572D /* GraphView.swift */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		1AC61F682A59302400466E1E /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				1AFFA80A2A5445CA00120F81 /* HealthStore.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
 		1AFFA7EE2A5439A700120F81 = {
 			isa = PBXGroup;
 			children = (
 				1AFFA7F92A5439A700120F81 /* iSteps */,
+				1A9BB7FD2A5AB5E200C6074A /* Frameworks */,
 				1AFFA7F82A5439A700120F81 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,9 +168,12 @@
 		1AFFA7F92A5439A700120F81 /* iSteps */ = {
 			isa = PBXGroup;
 			children = (
-				1AFFA7FA2A5439A700120F81 /* iStepsApp.swift */,
-				1AFFA7FC2A5439A700120F81 /* ContentView.swift */,
-				1AFFA7FE2A5439A800120F81 /* Assets.xcassets */,
+				1AFFA8092A54443F00120F81 /* iSteps.entitlements */,
+				1AABE6172A56B56C00F4572D /* Application */,
+				1AABE60B2A5660BA00F4572D /* Views */,
+				1AC61F682A59302400466E1E /* Store */,
+				1AABE60E2A5660F100F4572D /* Models */,
+				1AABE61B2A56DB9C00F4572D /* Extensions */,
 				1AFFA8002A5439A800120F81 /* Preview Content */,
 			);
 			path = iSteps;
@@ -77,12 +197,15 @@
 				1AFFA7F32A5439A700120F81 /* Sources */,
 				1AFFA7F42A5439A700120F81 /* Frameworks */,
 				1AFFA7F52A5439A700120F81 /* Resources */,
+				1A9BB8102A5AB5E500C6074A /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = iSteps;
+			packageProductDependencies = (
+			);
 			productName = iSteps;
 			productReference = 1AFFA7F72A5439A700120F81 /* iSteps.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +234,8 @@
 				Base,
 			);
 			mainGroup = 1AFFA7EE2A5439A700120F81;
+			packageReferences = (
+			);
 			productRefGroup = 1AFFA7F82A5439A700120F81 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +262,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AC61F702A59C3C900466E1E /* ShareViewController.swift in Sources */,
+				1AABE61A2A56DA3F00F4572D /* ActivityRing.swift in Sources */,
+				1AABE60A2A55811600F4572D /* ActivityRectangle.swift in Sources */,
+				1A9BB7F62A5A847100C6074A /* SharingView.swift in Sources */,
+				1AABE6142A56622900F4572D /* ActivityView.swift in Sources */,
+				1AABE6122A56610900F4572D /* Step.swift in Sources */,
+				1AABE6162A56678800F4572D /* DetailActivityView.swift in Sources */,
 				1AFFA7FD2A5439A700120F81 /* ContentView.swift in Sources */,
+				1AFFA80D2A54461C00120F81 /* Date+Extension.swift in Sources */,
+				1AC61F6B2A593EEC00466E1E /* Fitness+View.swift in Sources */,
+				1AFFA80B2A5445CA00120F81 /* HealthStore.swift in Sources */,
+				1AABE61F2A56F51B00F4572D /* Double+Extension.swift in Sources */,
 				1AFFA7FB2A5439A700120F81 /* iStepsApp.swift in Sources */,
+				1AABE61D2A56DBB900F4572D /* Color+Extension.swift in Sources */,
+				1AABE60D2A5660D000F4572D /* GraphView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,19 +400,25 @@
 		1AFFA8062A5439A800120F81 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iSteps/iSteps.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iSteps/Preview Content\"";
-				DEVELOPMENT_TEAM = 4M8598KG4C;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iSteps/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app requires access to your step count data to provide accurate fitness tracking.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app needs write access to your step count data to update your fitness goals and track your progress accurately.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -282,28 +426,37 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.qwoti.iSteps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		1AFFA8072A5439A800120F81 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iSteps/iSteps.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iSteps/Preview Content\"";
-				DEVELOPMENT_TEAM = 4M8598KG4C;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iSteps/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app requires access to your step count data to provide accurate fitness tracking.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app needs write access to your step count data to update your fitness goals and track your progress accurately.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,9 +464,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.qwoti.iSteps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
